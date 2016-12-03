@@ -1,0 +1,129 @@
+{
+    "author": "sunpazed",
+    "dependencies": {},
+    "keywords": [],
+    "name": "stopwatch",
+    "pebble": {
+        "capabilities": [
+            "health"
+        ],
+        "displayName": "Stopwatch+",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "characterRegex": "[0-9:.]",
+                    "file": "fonts/Leco Light Digits",
+                    "name": "LECO_LIGHT_16",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/icon-running",
+                    "name": "ICON_RUNNING",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/icon-trash",
+                    "name": "ICON_TRASH",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/icon-hr",
+                    "name": "ICON_HR",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/icon-pace",
+                    "name": "ICON_PACE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/icon-time",
+                    "name": "ICON_TIME",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/icon-fields",
+                    "name": "ICON_FIELDS",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/app-icon",
+                    "menuIcon": true,
+                    "name": "APP_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/icon-pause",
+                    "name": "ICON_PAUSE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/icon-split",
+                    "name": "ICON_SPLIT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/icon-play",
+                    "name": "ICON_PLAY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[0-9:\\.,]",
+                    "file": "fonts/Carnoky Type - LECO1976-Regular.otf",
+                    "name": "LECO_REG_54",
+                    "targetPlatforms": [
+                        "emery"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9:\\.,]",
+                    "file": "fonts/Carnoky Type - LECO1976-Regular.otf",
+                    "name": "LECO_REG_17",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9:\\.,KMFTkmft]",
+                    "file": "fonts/Carnoky Type - LECO1976-Regular.otf",
+                    "name": "LECO_REG_32",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9:\\/ .,a-zA-Z]",
+                    "file": "fonts/Carnoky Type - LECO1976-Regular.otf",
+                    "name": "LECO_REG_13",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery"
+        ],
+        "uuid": "43552b7e-a0f1-4ac8-8b56-3b4c42fa8f2f",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.1.0"
+}
